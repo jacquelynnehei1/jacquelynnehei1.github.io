@@ -20,6 +20,7 @@
     margin-left: -8px;
     margin-top: -8px;
     position: fixed;
+    z-index: 10;
    
 }
 #name
@@ -127,7 +128,7 @@
 {
     position: absolute;
     border: 1px solid #eaeaea;
-    height: 500px;
+    height: 1000px;
     width: 100%;
     margin-top: 115px;
     margin-left: -8px; 
@@ -135,10 +136,11 @@
 }
 #video
 {
-    border: 1px solid black;
+    border: 0px solid black;
     height: 350px;
     width: 101%;
     margin-left: -8px;
+    background: #E48A36;
 }
 #sectionHeader
 {
@@ -169,6 +171,43 @@
 #personalProjects
 {
     border: 1px solid black;
-    height: 300px;
+    height: auto;
     
+}
+table
+{
+    margin: auto;
+}
+td
+{
+    border: 0px solid black;
+    height: 450px;
+    width: 300px;
+}
+#gameImage
+{
+    border: 0px solid black;
+    height: 50%;
+    width: 100%;
+    margin-top: 0px;
+    background: #E48A36;
+    position: relative;
+}
+#gameTitle
+{
+    border: 0px solid black;
+    height: 10%;
+    position: relative;
+    font-family: ChristopherDone;
+    text-align: center;
+    line-height: 3;
+    font-size: 15pt;
+}
+#gameContribution
+{
+    border: 0px solid black;
+    height: 40%;
+    position: relative;
+    font-family: Arial;
+    font-size: 12pt;
 }
