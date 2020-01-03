@@ -29,10 +29,21 @@
     margin: auto;
     font-family: ChristopherDone;
     color: white;
-    font-size: 50px;
+    
+    
+}
+#nameSpace
+{
+    font-size: 35px;
     text-align: center;
     line-height: 1.5
-    
+}
+#roles
+{
+    border: 1px solid black;;
+    height: 20px;
+    width: 100%;
+    text-align: center;
 }
 #menu
 {
@@ -46,7 +57,7 @@
 }
 #navigation
 {
-    border: 1px solid #ffffff;
+    border: 1px solid #d1a6e5;
     height: 30px;
     width: 50%;
     padding 5px;
@@ -60,13 +71,13 @@
 }
 #nav-links
 {
-    border: 1px solid red;
+    border: 1px solid #d1a6e5;
     width: 635px;
     margin: auto;
 }
 #contact
 {
-    border: 1px solid #000000;
+    border: 1px solid #d1a6e5;
     height: 30px;
     width: 125px;
     position: relative;
@@ -74,7 +85,7 @@
 }
 #portfolio
 {
-    border: 1px solid #000000;
+    border: 1px solid #d1a6e5;
     height: 30px;
     width: 125px;
     position: relative;
@@ -84,7 +95,7 @@
 }
 #tutorials
 {
-    border: 1px solid #000000;
+    border: 1px solid #d1a6e5;
     height: 30px;
     width: 125px;
     position: relative;
@@ -94,7 +105,7 @@
 }
 #blog
 {
-    border: 1px solid #000000;
+    border: 1px solid #d1a6e5;
     height: 30px;
     width: 125px;
     position: relative;
@@ -104,11 +115,26 @@
 }
 #game-jams
 {
-    border: 1px solid #000000;
+    border: 1px solid #d1a6e5;
     height: 30px;
     width: 125px;
     position: relative;
     margin-left: 508px;
     margin-top: -32px;
     text-align: center;
+}
+#introduction
+{
+    border: 1px solid #eaeaea;
+    height: 300px;
+    width: 101%;
+    margin-left: -8px;
+    background-color: #eaeaea;
+}
+#mainBody
+{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    height: 300px;
 }
