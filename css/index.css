@@ -170,8 +170,9 @@
 }
 #personalProjects
 {
-    border: 1px solid black;
+    border: 1px solid #eaeaeas;
     height: auto;
+    margin-top: 30px;
     
 }
 table
