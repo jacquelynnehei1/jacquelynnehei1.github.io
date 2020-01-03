@@ -19,6 +19,7 @@
     padding: 5px;
     margin-left: -8px;
     margin-top: -8px;
+    position: fixed;
    
 }
 #name
@@ -47,17 +48,19 @@
 }
 #menu
 {
-    border: 1px solid #d1a6e5;
+    border: 1px solid #ffffff;
     height: 35px;
     margin-left: -8px;
+    margin-top: 0px;
     width: 101%;
     padding: 5px;
-    background: #d1a6e5;
+    background: #ffffff;
+    position: fixed;
     
 }
 #navigation
 {
-    border: 1px solid #d1a6e5;
+    border: 1px solid #ffffff;
     height: 30px;
     width: 50%;
     padding 5px;
@@ -65,19 +68,16 @@
     margin: auto;
     font-family: ChristopherDone;
     line-height: 2;
-    
-    
-    
 }
 #nav-links
 {
-    border: 1px solid #d1a6e5;
+    border: 1px solid #ffffff;
     width: 635px;
     margin: auto;
 }
 #contact
 {
-    border: 1px solid #d1a6e5;
+    border: 1px solid #ffffff;
     height: 30px;
     width: 125px;
     position: relative;
@@ -85,7 +85,7 @@
 }
 #portfolio
 {
-    border: 1px solid #d1a6e5;
+    border: 1px solid #ffffff;
     height: 30px;
     width: 125px;
     position: relative;
@@ -95,7 +95,7 @@
 }
 #tutorials
 {
-    border: 1px solid #d1a6e5;
+    border: 1px solid #ffffff;
     height: 30px;
     width: 125px;
     position: relative;
@@ -105,7 +105,7 @@
 }
 #blog
 {
-    border: 1px solid #d1a6e5;
+    border: 1px solid #ffffff;
     height: 30px;
     width: 125px;
     position: relative;
@@ -115,7 +115,7 @@
 }
 #game-jams
 {
-    border: 1px solid #d1a6e5;
+    border: 1px solid #ffffff;
     height: 30px;
     width: 125px;
     position: relative;
@@ -123,18 +123,52 @@
     margin-top: -32px;
     text-align: center;
 }
-#introduction
-{
-    border: 1px solid #eaeaea;
-    height: 300px;
-    width: 101%;
-    margin-left: -8px;
-    background-color: #eaeaea;
-}
 #mainBody
 {
+    position: absolute;
+    border: 1px solid #eaeaea;
+    height: 500px;
+    width: 100%;
+    margin-top: 115px;
+    margin-left: -8px; 
+    background-color: #eaeaea;
+}
+#video
+{
     border: 1px solid black;
+    height: 350px;
+    width: 101%;
+    margin-left: -8px;
+}
+#sectionHeader
+{
+    border: 1px solid #eaeaea;
+    height: 75px;
+    width: 101%;
+    margin-left: -8px;
+}
+#title
+{
+    border: 1px solid #eaeaea;
     width: 50%;
     margin: auto;
+    height: 70px;
+    font-family: ChristopherDone;
+    text-align: center;
+    font-size: 30pt;
+    line-height: 2.3;
+}
+#lineSeperator
+{
+    height: 1px;
+    width: 50%;
+    margin: auto;
+    background: black;
+    border: 1px solid black;
+}
+#personalProjects
+{
+    border: 1px solid black;
     height: 300px;
+    
 }
