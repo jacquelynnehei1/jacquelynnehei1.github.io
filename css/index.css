@@ -10,6 +10,11 @@
   font-weight: normal;
   font-style: normal;
 }
+body
+{
+    overflow-x: hidden;
+    min-width: 50%;
+}
 #top
 {
     border: 1px solid black;
@@ -160,6 +165,17 @@
     font-size: 30pt;
     line-height: 2.3;
 }
+#title-2
+{
+    border: 1px solid #ffffff;
+    width: 50%;
+    margin: auto;
+    height: 70px;
+    font-family: ChristopherDone;
+    text-align: center;
+    font-size: 30pt;
+    line-height: 2.3;
+}
 #lineSeperator
 {
     height: 1px;
@@ -170,7 +186,7 @@
 }
 #personalProjects
 {
-    border: 1px solid #eaeaeas;
+    border: 0px solid #eaeaea;
     height: auto;
     margin-top: 30px;
     
@@ -185,7 +201,70 @@ td
     height: 450px;
     width: 300px;
 }
-#gameImage
+.gameImage
+{
+    border: 0px solid black;
+    height: 250px;
+    width: 300px;;
+    margin-top: 0px;
+    background: #E48A36;
+    position: relative;
+}
+.codename-image
+{
+    border: 0px solid black;
+    height: 250px;
+    width: 300px;;
+    margin-top: 0px;
+    background: #E48A36;
+    position: relative;
+}
+.boss-image
+{
+    border: 0px solid black;
+    height: 250px;
+    width: 300px;;
+    margin-top: 0px;
+    background: #E48A36;
+    position: relative;
+}
+.space-image
+{
+    border: 0px solid black;
+    height: 250px;
+    width: 300px;;
+    margin-top: 0px;
+    background: #E48A36;
+    position: relative;
+}
+.crocs-image
+{
+    border: 0px solid black;
+    height: 250px;
+    width: 300px;;
+    margin-top: 0px;
+    background: #E48A36;
+    position: relative;
+}
+.knight-image
+{
+    border: 0px solid black;
+    height: 250px;
+    width: 300px;;
+    margin-top: 0px;
+    background: #E48A36;
+    position: relative;
+}
+.picross-image
+{
+    border: 0px solid black;
+    height: 250px;
+    width: 300px;;
+    margin-top: 0px;
+    background: #E48A36;
+    position: relative;
+}
+.asteroids-image
 {
     border: 0px solid black;
     height: 250px;
@@ -212,13 +291,79 @@ td
     font-family: Arial;
     font-size: 12pt;
 }
-#codenameCapture
+#featuredImage
 {
     height: 250px;
     width: 300px;
 }
-#bossSimulator
+#educationalProjects
 {
+    border: 0px solid #ffffff;
+    height: auto;
+    margin-top: 30px;
+    
+}
+.imageEffect
+{
+    border: 0px solid #E38A36;
     height: 250px;
-    width: 300px;;
+    width: 300px;
+    background-color: rgba(228, 138, 54, 0.8);
+    margin-top: -250px;
+    position: absolute;
+    display: none;
+}
+#effectText
+{
+    opacity: 100%;
+    border: 0px solid black;
+    margin: auto;
+    text-align: center;
+    height: 250px;
+    line-height: 10;
+}
+#effectText a
+{
+    font-family: ChristopherDone;
+    text-decoration: none;
+    color: white;
+    opacity: 100%;
+    font-size: 20pt
+}
+.codename-image:hover .imageEffect
+{
+    display: block;
+}
+.boss-image:hover .imageEffect
+{
+    display: block;
+}
+.space-image:hover .imageEffect
+{
+    display: block;
+}
+.crocs-image:hover .imageEffect
+{
+    display: block;
+}
+.knight-image:hover .imageEffect
+{
+    display: block;
+}
+.picross-image:hover .imageEffect
+{
+    display: block;
+}
+.asteroids-image:hover .imageEffect
+{
+    display: block;
+}
+a:hover
+{
+    color: #E38A46;
+}
+a
+{
+    color: black;
+    text-decoration: none;
 }
