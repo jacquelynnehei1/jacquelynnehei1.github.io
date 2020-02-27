@@ -133,7 +133,7 @@ body
 {
     position: absolute;
     border: 1px solid #eaeaea;
-    height: 1000px;
+    height: 2000px;
     width: 100%;
     margin-top: 115px;
     margin-left: -8px; 
@@ -366,4 +366,92 @@ a
 {
     color: black;
     text-decoration: none;
+}
+#footer
+{
+    height: 300px;
+    width: 101%;
+    margin-left: -8px;
+    background-color: black;
+    border: 1px solid black;
+    position: relative;
+}
+#top-footer
+{
+    height: 300px;
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+#footer-links
+{
+    width: 90%;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+#personal-logo
+{
+    height: 159px;
+    width: 100px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5%;
+    background-image: url(../images/personal-logo.png);
+}
+#browse-games
+{
+    color: white;
+    position: reative;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14pt;
+    margin-left: 15%;
+    margin-top: -90px;
+}
+#about-me
+{
+    color: white;
+    position: reative;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14pt;
+    margin-left: 30%;
+    margin-top: -32px;
+}
+#support-me
+{
+    color: white;
+    position: reative;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14pt;
+    margin-left: 45%;
+    margin-top: -32px;
+}
+#contact-me
+{
+    color: white;
+    position: reative;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14pt;
+    margin-left: 60%;
+    margin-top: -32px;
 }
