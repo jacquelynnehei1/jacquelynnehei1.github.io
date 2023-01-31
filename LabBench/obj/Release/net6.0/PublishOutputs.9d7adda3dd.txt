@@ -1,0 +1,8 @@
+D:\LabBench\LabBench\LabBench\obj\Release\net6.0\PubTmp\Out\LabBench.exe
+D:\LabBench\LabBench\LabBench\obj\Release\net6.0\PubTmp\Out\web.config
+D:\LabBench\LabBench\LabBench\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\LabBench\LabBench\LabBench\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\LabBench\LabBench\LabBench\obj\Release\net6.0\PubTmp\Out\LabBench.dll
+D:\LabBench\LabBench\LabBench\obj\Release\net6.0\PubTmp\Out\LabBench.deps.json
+D:\LabBench\LabBench\LabBench\obj\Release\net6.0\PubTmp\Out\LabBench.runtimeconfig.json
+D:\LabBench\LabBench\LabBench\obj\Release\net6.0\PubTmp\Out\LabBench.pdb

@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LabBench</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/LabBench.styles.css" asp-append-version="true" />
+    <script src="~/js/site.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm topNav">
+            <div class="sideNavToggle" id="hamburgerMenuButton" onclick="toggleNav()">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+            <div id="topNavLogo">
+                <div id="logo" class="logo"></div>
+                <div id="logoName" class="logoName">Lab Bench</div>
+            </div>
+            <div id="userOptions">
+                <div class="row">
+                    <div class="col" style="padding-right: 0;">
+                        <div class="userOptionItem searchBarContainer">
+                            <input class="searchInput" type="search" placeholder="Search Lab Bench&trade;..." value="" />
+                            <button class="searchButton" type="button" value=""><div class="searchIcon"></div></button>
+                        </div>
+                    </div>
+                    <div class="col-1" style="padding-right: 0;">
+                        <div class="userOptionItem notificationMenu"></div>
+                    </div>
+                    <div class="col-1" style="margin-right: 20px;">
+                        <div class="dropdown">
+                            <div class="userOptionItem userAccountOptions"></div>
+                            <div class="dropdown-content" style="width: 150px; margin-top: 37px; right: 0;">
+                                <a href="#" id="fakeOption"></a>
+                                <a href="#">Account</a>
+                                <a href="#">Settings</a>
+                                <a href="#">Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="sideNav" class="sideNav">
+        <div style="height: 60px; background-color: #27476E; margin: 0; padding: 0;">
+            <a href="javascript:void(0)" onclick="closeNav()"><div id="closeBtn"></div></a>
+        </div>
+        <table id="navigationTable" style="width: 100%; padding-top: 0px;">
+            <tr style="height: 50px; text-align: right;">
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="#">Home</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Connections</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">About</a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="container">
+        <main role="main" style="margin: 0 auto; width: 100%;" id="mainContainer">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container" id="footerContainer">
+            &copy; 2023 - LabBench - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+<!-- <a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by kmg design - Flaticon</a> -->
+<!-- <a href="https://www.flaticon.com/free-icons/mail" title="mail icons">Mail icons created by Freepik - Flaticon</a> -->

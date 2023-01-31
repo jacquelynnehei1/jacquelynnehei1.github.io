@@ -1,0 +1,320 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.placeholder{
+    border: 1px solid white;
+    height: 50px;
+}
+
+.topNav {
+    background-color: #27476E;
+    padding-left: 5px;
+}
+
+#topNavLogo{
+    
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    background-image: url(../images/science.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 38px 38px;
+    position: relative;
+    float: left;
+}
+
+.logoName{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    font-weight: bold;
+    padding-left: 10px;
+    vertical-align: central;
+    position: relative;
+    float: right;
+}
+
+.userOptionMenu {
+    height: 0;
+    width: 175px;
+    border: 1px solid #DDDDDD;
+    position: fixed;
+    right: 0;
+    background-color: #EEEEEE;
+    box-shadow: rgb(128, 128, 128, .1) -2px 1px;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.userOptionMenu a {
+    max-height: 0;
+    display: block;
+    text-decoration: none;
+    color: #818181 !important;
+    background-color: #EEEEEE;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.userOptionMenu a:hover{
+    background-color: #818181;
+    color: #FFFFFF !important;
+}
+
+.userOptionTable {
+    width: 100%;
+}
+
+.userOptionTable tr{
+    color: #818181;
+    font-weight: bold;
+    height: 30px;
+    font-size: 14pt;
+}
+
+.userOptionTable tr:hover{
+    background-color: #818181;
+    color: #FFFFFF;
+}
+
+.userOptionTable td{
+    width: 175px;
+}
+
+.userOptionTableOptions:hover {
+    background-color: #818181;
+    color: #FFFFFF;
+}
+
+#userOptions {
+    height: 45px;
+    width: 700px;
+    position: fixed;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.userOptionItem{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    float: right;
+}
+
+.userOption{
+    height: 30px;
+    width: 100%;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #818181;
+    font-size: 14pt;
+}
+
+.userOption:hover{
+    background-color: #818181;
+    color: #FFFFFF;
+}
+
+.searchBarContainer{
+    margin-right: 20px;
+    width: 350px;
+}
+
+.searchInput {
+    width: 298px;
+    border: 1px solid #27476E;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid #EC9232;
+    outline: none;
+    height: 40px;
+    position: relative;
+    float: left;
+}
+
+.searchButton {
+    width: 50px;
+    height: 40px;
+    background-color: #EC9232;
+    border: 1px solid #27476E;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+}
+
+.searchIcon{
+    height: 40px;
+    width: 40px;
+    margin-top: -3px;
+    background-image: url(../images/search.png);
+    background-position: 6px 8px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+}
+
+.downArrow{
+    width: 15px !important;
+    background-image: url(../images/down-arrow.png);
+    background-position: center;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.userAccountOptions{
+    display: inline-block;
+    background-image: url(../images/user.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+}
+
+.notificationMenu{
+    margin-right: 10px;
+    background-image: url(../images/mail.png);
+    background-position: center;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+}
+
+#userOptionsMenu{
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/user.png);
+    background-position: center;
+    background-size: 40px 40px;
+}
+
+#notifications{
+    height: 40px;
+    background-image: url(../images/bell.png);
+    background-position: center;
+    background-size: 40px 40px;
+}
+
+.sideNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #EEEEEE;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sideNav a{
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sideNav .closeBtn{
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#closeBtn{
+    background-image: url(../images/leftSideNavArrow.png);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.sideNavToggle{
+    padding-top: 3px;
+    height: 40px;
+    width: 40px;
+}
+
+.hamburger {
+    width: 30px;
+    height: 3px;
+    background-color: #FFFFFF;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+
+@media screen and (max-height: 450px) {
+    .sideNav{padding-top: 15px}
+    .sideNav a{font-size: 18px}
+}
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover{
+    color: white;
+    background-color: #00A4BD;
+}
+
+#fakeOption:hover{
+    background-color: transparent;
+}
+
+#mainContainer{
+    margin-left: 0;
+    transition: 0.5s;
+}
+
+#footerContainer {
+    margin-left: 0;
+    transition: 0.5s;
+}
